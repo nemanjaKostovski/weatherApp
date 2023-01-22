@@ -1,0 +1,78 @@
+:root {
+  --color1: skyblue;
+  --color2: rgb(73, 73, 194);
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+
+.form {
+  margin: 200px auto;
+  width: 400px;
+  border: 2px solid var(--color2);
+  border-radius: 10px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form label {
+  font-size: 3rem;
+}
+
+.form button {
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  background-color: var(--color1);
+  border-radius: 5%;
+}
+
+.form button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: var(--color2);
+}
+
+.form input {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  font-size: 1.5rem;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper {
+  margin: 100px auto;
+  width: 400px;
+  border: 1px solid var(--color2);
+  border-radius: 10px;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon {
+  width: 150px;
+  height: 150px;
+}
+
+.description {
+  font-size: 2rem;
+}
